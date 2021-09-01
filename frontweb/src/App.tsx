@@ -1,13 +1,11 @@
-import Navbar from './components/Navbar';
-import './assets/styles/custom.scss';
+import 'assets/styles/custom.scss';
 import './App.css';
 
-const App = () => {
+import Routes from 'Routes';
+
+function App() {
   return (
-    <>
-      <Navbar />
-      <h1>HELLO DScatalog </h1>
-    </>
+    <Routes />
   );
 }
 
